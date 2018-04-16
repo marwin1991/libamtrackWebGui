@@ -8,7 +8,7 @@ class App extends Component {
     const desc = "Go to function"  
       
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL + '/'}>
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />

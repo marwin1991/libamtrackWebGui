@@ -2,10 +2,12 @@
   "name": "libamtrack-web-gui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marwin1991.github.io/libamtrackWebGui",
+  "homepage": "http://marwin1991.github.io/libamtrackWebGui",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -13,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-	"predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {

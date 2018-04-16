@@ -5,32 +5,32 @@ import './App.css';
 
 class App extends Component {  
   render() {
-	const desc = "Go to function"  
-	  
+    const desc = "Go to function"  
+      
     return (
-	  <Router>
+      <Router>
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Welcome to React</h1>
           </header>
           <Route exact={true} path="/" render={() => (
-		    <p className="App-intro">
-			  <Link to={'/fun'}>
-		        <button>{desc}</button>
+            <p className="App-intro">
+              <Link to={'/fun'}>
+                <button>{desc}</button>
               </Link>
-		    </p>
-		  )} />	
-		  <Route exact={true} path="/fun" component={ExampleFun} />
+            </p>
+          )} /> 
+          <Route exact={true} path="/fun" component={ExampleFun} />
         </div>
-	  </Router>
+      </Router>
     );
   }
 }
 
 const ExampleFun = () => (
   <div>
-	"Hello fun!"
+    "Hello fun!"
   </div>
 )
 

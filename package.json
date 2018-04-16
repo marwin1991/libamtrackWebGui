@@ -2,7 +2,7 @@
   "name": "libamtrack-web-gui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/marwin1991/libamtrackWebGui",
+  "homepage": "https://marwin1991.github.io/libamtrackWebGui",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
